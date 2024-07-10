@@ -12,6 +12,7 @@ import AuthProvider from '@/providers/AuthProvider'
 import Navigation from '@/navigation/Navigation'
 
 import { persistor, store } from '@/store/store'
+import AsyncStorage from '@react-native-async-storage/async-storage'
 
 const queryClient = new QueryClient({
 	defaultOptions: {
@@ -20,6 +21,19 @@ const queryClient = new QueryClient({
 		}
 	}
 })
+
+// queryClient.clear();
+// const clearStorage = async () => {
+// 	try {
+// 		await AsyncStorage.clear();
+// 		console.log('Storage successfully cleared!');
+// 	} catch (e) {
+// 		console.log('Failed to clear the async storage.');
+// 	}
+// };
+//
+// // Викликайте цю функцію в потрібному місці вашого додатку
+// clearStorage();
 
 export default function App() {
 	return (
