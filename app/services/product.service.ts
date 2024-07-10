@@ -28,7 +28,7 @@ export const ProductService = {
 		return request<IProduct>({
 			url: getProductsUrl(`/by-category/${categorySlug}`),
 			method: 'GET',
-			data: { categorySlug }
+			// data: { categorySlug }r
 		})
 	}
 }
