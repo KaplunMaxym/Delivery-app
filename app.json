@@ -12,13 +12,15 @@
       "backgroundColor": "#4fae5a"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kaplunmaxym.client"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./app/assets/adaptive-icon.png",
         "backgroundColor": "#4fae5a"
-      }
+      },
+      "package": "com.kaplunmaxym.client"
     },
     "web": {
       "favicon": "./app/assets/favicon.png"
