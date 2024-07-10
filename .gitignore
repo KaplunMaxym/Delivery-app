@@ -35,3 +35,6 @@ yarn-error.*
 *.tsbuildinfo
 .env
 /.idea
+/ios
+/android
+/.expo

@@ -10,7 +10,6 @@ import { API_URL, getAuthUrl } from '@/config/api.config'
 export const getNewTokens = async () => {
 	try {
 		const refreshToken = await getItemAsync(EnumSecureStore.REFRESH_TOKEN)
-
 		const response = await axios.post<string, { data: IAuthResponse }>(
 			API_URL + getAuthUrl('/login/access-token'),
 			{ refreshToken },
