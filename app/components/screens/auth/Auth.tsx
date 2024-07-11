@@ -45,7 +45,7 @@ const Auth: FC = () => {
 								{isReg
 									? 'Already have an account? '
 									: "Don't have an account? "}
-								<Text className='text-[#47AA52]'>
+								<Text className='text-[#475baa]'>
 									{isReg ? 'Login' : 'Sign up'}
 								</Text>
 							</Text>

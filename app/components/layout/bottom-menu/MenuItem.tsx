@@ -21,7 +21,7 @@ const MenuItem: FC<IMenuItemProps> = ({ currentRoute, item, nav }) => {
 			<Feather
 				name={item.iconName}
 				size={26}
-				color={isActive ? '#47AA52' : '#374151'}
+				color={isActive ? '#475baa' : '#374151'}
 			/>
 		</Pressable>
 	)

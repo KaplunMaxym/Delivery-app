@@ -12,7 +12,7 @@ const ProductInfo: FC<IProductComponent> = ({ product }) => {
 			<Text className='mt-2 text-base opacity-70'>
 				{product.description}
 			</Text>
-			<Text className='mt-6 text-3xl font-semibold text-[#47AA52]'>
+			<Text className='mt-6 text-3xl font-semibold text-[#475baa]'>
 				{convertPrice(product.price)}
 			</Text>
 		</View>

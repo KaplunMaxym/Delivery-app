@@ -13,6 +13,7 @@ import Navigation from '@/navigation/Navigation'
 
 import { persistor, store } from '@/store/store'
 import AsyncStorage from '@react-native-async-storage/async-storage'
+import {log} from "expo/build/devtools/logger";
 
 const queryClient = new QueryClient({
 	defaultOptions: {

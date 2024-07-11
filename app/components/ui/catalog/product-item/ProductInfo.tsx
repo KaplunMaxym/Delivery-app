@@ -14,7 +14,7 @@ const ProductInfo: FC<IProductInfo> = ({ product }) => {
 		<View className='my-3'>
 			<Text className='font-semibold text-base'>{product.name}</Text>
 			<Text className='py-1.5'>{product.category.name}</Text>
-			<Text className='mt-1 font-normal text-sm text-center py-0.5 w-[55px] rounded-full text-white bg-[#47AA52]'>
+			<Text className='mt-1 font-normal text-sm text-center py-0.5 w-[55px] rounded-full text-white bg-[#475baa]'>
 				{convertPrice(product.price)}
 			</Text>
 		</View>
